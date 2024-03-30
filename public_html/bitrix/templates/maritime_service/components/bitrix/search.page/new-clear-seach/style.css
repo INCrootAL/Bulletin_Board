@@ -1,0 +1,143 @@
+div.search-tags-chain a {margin:2px;}
+div.search-tags-chain a.search-tags-link {color:#333333; font-size:90%; text-decoration:none;color:#535353;}
+div.search-tags-cloud a {white-space: normal;}
+
+div.search-advanced { overflow: hidden; margin: 0.5em 0; zoom:1;}
+div.search-advanced-result { float: left; width:70%;}
+div.search-advanced-filter { float: right; }
+div.search-advanced-filter a { outline: none;}
+
+div.search-item { margin: 0 0 0; padding: 0 0 1.5em; border-bottom: 1px solid;}
+div.search-item h4 { font-size: 140%; font-weight: normal; line-height: 1.2; margin: 1.3em 0 0.4em;}
+div.search-item h4 a { text-decoration:none;}
+div.search-item h4 img { border:0px;vertical-align:middle;}
+div.search-item h4 span { vertical-align:middle;text-decoration:underline;}
+div.search-result { margin: 0;}
+div.search-preview {margin: 0.5em 0;}
+
+div.search-item-meta { margin: 1em 0 0 0; overflow: hidden; zoom: 1;}
+div.search-item-rate { float: left; margin: -3px 6px 0 0;}
+div.search-item-tags { float: left; }
+div.search-item-date { float: right;}
+
+div.search-page input.search-query {width: 99%; border: 1px solid; font-size:1.3em;}
+div.search-page input.search-suggest {width: 99%; border: 1px solid; font-size:1.3em;}
+div.search-page input.search-button { font-size: 1.2em; }
+
+div.search-filter h2 { margin:1em 0 0.5em; border: none;}
+table.search-filter { width: 100%;  margin-top: 0.5em;}
+table.search-filter td { padding: 1em; border-top: 1px solid;}
+td.search-filter-name { width: 10%; text-align: right;}
+td.search-filter-field { width: 50%;}
+
+table.search-filter input.input-field { border: 1px solid; font-size:1.3em; }
+table.search-filter select.select-field {border: 1px solid; font-size:1.2em; }
+
+div.search-sorting { margin: 0.5em 0;}
+div.search-sorting b { padding: 0.2em 0.3em 0.3em ; font-weight: normal;}
+/* COLORS */
+div.search-item, table.search-filter td { border-color: snow;}
+div.search-page input.search-query, div.search-page input.search-suggest, table.search-filter input.input-field, table.search-filter select.select-field { background: #F8F7F7; border-color: #D9D9D9; }
+div.search-advanced, div.search-item-meta, div.search-item-meta a { color: #8a8a8a; }
+div.search-sorting b { background: #e8e9ec; }
+
+.search-item-rate {font-size: 11px;}
+
+#search-page-seach {
+    margin-top: 275px;
+    position: relative;
+    z-index: 10;
+}
+
+#search-page-seach .search-suggest::placeholder {
+    color: #989898;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    top: 15px;
+}
+
+.seach-seach {
+    margin-bottom: 167px;
+}
+
+#search-page-seach .search-button {
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    min-width: 174px;
+    min-height: 49px;
+    font-weight: 600;
+    line-height: normal;
+    background: #035AA6;
+    border: 0px solid #035AA6;
+    position: relative;
+    left: -11px;
+    z-index: 1;
+    cursor: pointer;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 0.28px;
+}
+
+#search-page-seach .search-suggest {
+    width: 94.4%;
+    border: 1px solid #fff;
+    border-radius: 14px;
+    position:relative;
+    z-index: 10;
+    background: url(/bitrix/templates/maritime_service/images/svg/magnifier.svg) 1.9% 50% no-repeat;
+    background-color: #fff;
+    padding: 0 0 0 63px;
+    box-shadow: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    height: 47px;
+    flex-shrink: 0;
+    word-break: break-word;
+    cursor: pointer;    
+}
+
+#search-page-seach .search-suggest:focus {
+    border: 1px solid #035AA6;
+}
+
+#search-page-seach .search-suggest:focus {
+    outline: none;
+    border: 1px solid #035AA6;
+    input: focus,;
+}
+
+.dont-seach {
+    width: 519px;
+    height: 15px;
+    padding: 34px 68px 31px 105px;
+    font-weight: 500;
+    background: url(/bitrix/templates/maritime_service/images/svg/seach-for.svg) 10% 54% no-repeat #ECECEC;
+}
+
+.search-language-guess {
+    width: 519px;
+    height: 15px;
+    padding: 34px 68px 31px 105px;
+    font-weight: 500;
+    background: url(/bitrix/templates/maritime_service/images/svg/seach-for.svg) 10% 54% no-repeat #ECECEC;
+}
+
+.search-result {
+    grid-template-columns: 1fr 0fr;
+    display: grid;
+}
+
+#page-body .page-left h1 {
+    font-size: 33px!important;
+    font-weight: 600!important;
+}

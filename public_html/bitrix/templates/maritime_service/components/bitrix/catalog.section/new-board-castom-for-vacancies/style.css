@@ -1,0 +1,164 @@
+.board-section {
+    margin-top: 120px;
+}
+
+.vacansii .board-sections {
+    display: none;
+}
+
+div.board-section td {
+    border-bottom: 0px!important;
+}
+
+.vacansii .board-section tr {
+    display: inline-block;
+    width: calc(100%/2);
+}
+
+.vacansii .board-section tr:nth-child(2n) {
+    left: 12px;
+    position: relative;
+}
+
+.vacansii .board-section .top-vack-card tr {
+    padding: 32px 39.54px 39px 39.54px;
+    margin-bottom: 18px;
+    width: 575.92px;
+    height: 197px;
+    flex-shrink: 0;
+    border-radius: 13.235px;
+    background: #FFF;
+    box-shadow: 1.323px 2.647px 1.323px 0px #C0C0C0;
+}
+
+.vacansii .board-section .top-vack-card .top-left {
+    width: 367px;
+}
+
+.top-right-comp-logo {
+    width: 110px;
+    height: 110px;
+    margin-top: 2px;
+    margin-left: 39px;
+}
+
+.top-right-comp-title {
+    margin-top: 15px;
+    width: 110px;
+    height: 110px;
+    margin-left: 39px;
+}
+
+.vacansii .board-section .top-vack-card .top-right-comp-logo img {
+    width: 110px;
+    height: 110px;
+}
+
+.vacansii .board-section .top-vack-card .top-left .board-date {
+    border-top: 1px solid #333333;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    justify-content: space-between;
+    margin-top: 7px;
+    color: rgba(51, 51, 51, 0.50);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.vacansii .board-section .top-vack-card .top-left .board-title {
+    width: 387px;
+    display: block;
+    color: #333;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.board-section .top-left .properties {
+    color: rgba(51, 51, 51, 0.50);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.board-section .top-left .properties #properties_bott_16 {
+    margin-top: 9px;
+    display: block;
+    color: #333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.board-section .top-left .properties #properties_bott_51{
+    display: block;
+    color: #333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.28px
+}
+
+.board-section .top-left .properties #properties_bott_17 {
+    margin-top:9px;
+    display: block;
+    color: #333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.28px
+}
+
+#properties_16 {
+    margin-top: 15px;
+    display: grid;
+}
+
+#properties_17 {
+    margin-top: 13px;
+    display: grid;
+}
+
+#properties_17 a {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-decoration: unset;
+}
+
+#page-body .vacansii .board-section .top-vack-card .top-left .border-data-data {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    margin-top: -18px;
+    margin-left: 109px;
+}

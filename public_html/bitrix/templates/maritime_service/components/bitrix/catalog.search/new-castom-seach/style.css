@@ -1,0 +1,117 @@
+a.search-page-params {
+	border-bottom: 1px dashed blue;
+	text-decoration: none;
+}
+
+.info-search-filter {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+div.search-page-params {
+	margin-top: 6px;
+}
+.search-item-rate {font-size: 11px;}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+#page-body .input-group:focus {
+    border-radius:14px;
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+
+#page-body .input-group {
+    position: relative;
+    display: flex;
+    border-collapse: separate;
+    border-radius: 14px;
+}
+
+#page-body .input-group .form-control:hover {
+    border: 1px solid #035AA6;
+}
+
+#page-body .input-group .form-control:focus {
+    border: 1px solid #035AA6;
+    background-color: #fff;
+}
+
+#page-body .input-group .form-control {
+    max-width: 87.8%;
+    width: 82.9%;
+    border: 1px solid #fff;
+    border-radius:14px;
+    z-index: 10;
+    background: url(/bitrix/templates/maritime_service/images/svg/magnifier.svg) 1.9% 50% no-repeat;
+    background-color: #fff;
+    padding: 0 0 0 63px;
+    box-shadow: none;
+}
+
+#page-body .search-page input.btn.btn-primary {
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    min-width: 174px;
+    min-height: 51px;
+    font-weight: 600;
+    line-height: normal;
+    background: #035AA6;
+    border: 0px solid #035AA6;
+    position: relative;
+    left: -10px;
+    z-index: 1;
+    cursor:pointer;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 0.28px;
+}
+
+#page-body .search-page input.btn.btn-primary:hover {
+    background: #044F90;
+}
+
+.search-page input[type="text"] {
+    border: 1px solid;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    padding: 0px 0px 0px 22px;
+    word-break: break-word;
+    cursor:pointer;
+}
+
+.search-page input[type="text"]:focus{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #035AA6!important;
+    input: focus,;
+}
+
+.search-page input[type="text"]::placeholder {
+    color: #989898;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    top: 15px;
+}

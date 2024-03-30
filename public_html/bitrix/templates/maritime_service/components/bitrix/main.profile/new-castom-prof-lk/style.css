@@ -1,0 +1,379 @@
+.field.field-name input[type="text"] {
+    height: 74px;
+    width: 270px;
+}
+
+.field.field-street input[type="text"] {
+    height: 74px;
+    width: 270px;
+}
+
+.fields .field input[type="text"] {
+    height: 12px;
+    width: 246px;;
+}
+
+.fields .field input[type="text"]:focus {
+    border: 1px solid #035AA6;
+    background-color: #fff;
+}
+
+.field.field-prof input[type="text"]:focus {
+    border: 1px solid #035AA6;
+    background-color: #fff;
+}
+
+.fields-pass .field.field-password_new input[type="password"]:focus {
+    border: 1px solid #035AA6;
+    background-color: #fff;
+    outline: none;
+    input: focus,;
+}
+
+.fields-pass .field.field-password_new input[type="password"] {
+    height: 12px;
+    width: 246px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    border-radius: 10px;
+}
+
+.fields-pass .field.field-password_confirm input[type="password"]:focus  {
+    border: 1px solid #035AA6;
+    background-color: #fff;
+    outline: none;
+    input: focus,;
+}
+
+.fields-pass .field.field-password_confirm input[type="password"] {
+    height: 12px;
+    width: 246px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    border-radius: 10px;
+}
+
+div.content-form div.field label.field-title {
+    color: #999999!important;
+    font-size: 16px;
+    font-weight: 600;
+    font-family:Montserrat;
+    margin-bottom: 13px;
+    letter-spacing: 0.28px;
+}
+
+.table-info-1 {
+    display: flex;
+}
+
+.table-info-1 .field.field-street {
+    margin-left: 72px;
+}
+
+.table-info-2 .field.field-phone {
+    margin-left: 72px;
+}
+
+.table-info-2 {
+    display: flex;
+}
+
+.table-info-3 {
+    display: flex;
+}
+
+div.content-form div.form-input input {
+    padding: 18px 0px 44px 22px; 
+}
+
+.form-input-email {
+    width: 246px;
+    height: 56px;
+    padding-top: 18px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #BFBFBF;
+    font-size: 16px;
+    padding-left: 22px;
+    display: flex;
+    align-items: normal;
+}
+
+.table-info-3 .field.field-www {
+    margin-left: 72px;
+}
+
+.fields-pass .field.field-password_confirm {
+    margin-left: 72px;
+}
+
+.fields .field input[type="text"]::placeholder {
+    padding-left:10px;
+    margin-left:22px;
+}
+
+div.content-form {
+    padding-left: 0;
+    padding-bottom:0;
+}
+
+.content-form.profile-form-tit {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.form-input-login-lk {
+    width: 246px;
+    height: 56px;
+    padding-top: 18px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #BFBFBF;
+    font-size: 16px;
+    padding-left: 22px;
+    display: flex;
+    align-items: normal;
+}
+
+.fields-pass {
+    display: flex;
+    margin-top: 18px;
+}
+
+.field.field-prof input[type="text"] {
+    width: 588px;
+    height: 52px;
+}
+
+.content-form.profile-form input.input-submit {
+    margin-top: 74px;
+    background: #035AA6;
+    color: #fff;
+    padding: 19px 29px 19px 33px;
+    font-size: 16px;
+    font-weight: 600;
+    display: grid;
+    border-radius: 12px;
+    width: 218px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 289px;
+    border-width: 0px;
+    font-family: Montserrat;
+}
+
+.content-form.profile-form input.input-submit:hover {
+    background:#044F90;
+}
+
+input[type="file"] {
+    padding: 0!important;
+}
+
+.content-form.profile-form .field.field-logo {
+    display: flex;
+    margin-top: 24px;
+}
+
+#form-input-file-lk {
+    display: none;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 0;
+}
+
+.field-logo-title-name {
+    width: 213px;
+    height: 51px;
+    background: #ECECEC;
+    padding-left: 21px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.28px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    cursor:pointer;
+    z-index: 2;
+    border: 1px solid #ECECEC;
+}
+
+.field-logo-title-name.active {
+    border: 1px solid #035AA6;
+}
+
+.field-logo-title-name-lg {
+    left: -8px;
+    position: relative;
+    width: 64px;
+    height: 53px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 1;
+    background: url(/bitrix/templates/maritime_service/images/svg/file.svg) 58% 50% no-repeat #D9D9D9;
+}
+
+.field-logo-title-name-lg.active {
+    background: url(/bitrix/templates/maritime_service/images/svg/vk-lk.svg) 58% 50% no-repeat #035AA6;
+}
+
+.field-logo-title-name-warning {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.28px;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.bx-form-input-password-new-confirm-lk {
+    background: url(/bitrix/templates/maritime_service/images/svg/eye-close.svg) 100% 50% no-repeat;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    margin-left: -40px;
+    margin-top: 14px;
+    cursor:pointer;
+}
+
+.bx-form-input-password-new-lk {
+    background: url(/bitrix/templates/maritime_service/images/svg/eye-close.svg) 100% 50% no-repeat;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    margin-left: -40px;
+    margin-top: 14px;
+    cursor:pointer;
+}
+
+.bx-form-input-password-new-confirm-lk.active {
+    background: url(/bitrix/templates/maritime_service/images/svg/eye_n.svg) 100% 50% no-repeat;
+}
+
+.bx-form-input-password-new-lk.active {
+    background: url(/bitrix/templates/maritime_service/images/svg/eye_n.svg) 100% 50% no-repeat;
+} 
+
+.form-input-password-new:focus {
+    background: url(/bitrix/templates/maritime_service/images/svg/eye-close.svg) 100% 50% no-repeat #fff;
+}
+
+.form-input-password-new-confirm:focus {
+    background: url(/bitrix/templates/maritime_service/images/svg/eye-close.svg) 100% 50% no-repeat #fff;
+}
+
+
+.fields-pass .field.field-password_new #form-input-password-new-lk {
+    height: 12px;
+    width: 246px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    border-radius: 10px;
+}
+
+.fields-pass .field.field-password_new #form-input-password-new-lk:focus {
+    border: 1px solid #035AA6;
+    background-color: #fff;
+    outline: none;
+    input: focus,;
+}
+
+.fields-pass .field.field-password_confirm #form-input-password-new-confirm-lk:focus  {
+    border: 1px solid #035AA6;
+    background-color: #fff;
+    outline: none;
+    input: focus,;
+}
+
+.fields-pass .field.field-password_confirm #form-input-password-new-confirm-lk {
+    height: 12px;
+    width: 246px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    border-radius: 10px;
+}
+
+.content-form.profile-form .button {
+    display: flex;
+}
+
+.warning-info-lk font.notetext {
+    /* position: relative; */
+    /* margin-top: 74px; */
+    /* margin-top: 74px; */
+    background: #D9D9D9;
+    color: #333;
+    padding: 32px 29px 19px 33px;
+    font-size: 16px;
+    font-weight: 500;
+    /* margin-left: 10px; */
+    /* display: grid; */
+    /* border-radius: 12px; */
+    /* width: 218px; */
+    /* cursor: pointer; */
+    text-decoration: none;
+    /* margin-bottom: 289px; */
+    /* border-width: 0px; */
+    /* font-family: Montserrat; */
+    /* background: unset; */
+    border-color: aliceblue;
+    width: 568px;
+    /* display: flex; */
+    /* text-align: center; */
+    height: 39px;
+}
+
+.warning-info-lk {
+    position: absolute;
+    display: block;
+    z-index: 999999;
+    flex-shrink: 0;
+    border-radius: 12px;
+    padding: 0;
+    background: #FFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 455%;
+    background: rgba(51, 51, 51, 0.85);
+    opacity: 1;
+}
+
+.warning-info-lk p {
+    position: relative;
+    top: 610px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.notetext svg {
+    margin-left: 156px;
+    position: relative;
+    bottom: -4px;
+    margin-right: 20px;
+}

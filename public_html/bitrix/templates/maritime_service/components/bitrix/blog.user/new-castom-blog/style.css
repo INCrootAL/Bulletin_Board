@@ -1,0 +1,205 @@
+.info-company-use {
+    margin-top: 239px;
+    z-index:10;
+    position:relative;
+    letter-spacing: 0.32px;
+    font-size: 16px;
+}
+
+table.blog-table-header-left {
+    margin-bottom: 18px;
+}
+
+.blog-table-header-left tbody tr th {
+    border-top: 0px solid;
+    text-align: unset;
+    font-size: 16px;
+    color: #333;
+    opacity: 0.5;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding:0;
+}
+
+.blog-table-header-left-line-m {
+    border-bottom: 2px solid #333;
+    width: 912px;
+    padding-top: 51px;
+}
+
+table.blog-table-header-left-reg-info {
+    margin-top: 34px;
+}
+
+th.blog-table-header-left-title-acc {
+    text-align: unset;
+    font-size: 16px;
+    color: #333;
+    opacity: 0.5;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.blog-table-header-left-acc-date {
+    padding-left: 36px;
+    font-weight: 600;
+}
+
+.blog-table-header-left-notifi-info {
+    margin-top: 104px;
+}
+
+.blog-table-header-left tbody tr td {
+    font-weight: 600;
+}
+
+.blog-table-header-left-three tr td {
+    font-weight: 600;
+    max-width: 250px;
+    padding:0;
+}
+
+.blog-table-header-left-class-new {
+    display: flex;
+}
+
+.blog-table-header-class-new-right-table-logo img {
+    margin-left: 109px;
+    width: 313px;
+    height: 313px;
+    top: -120px;
+    position: relative;
+}
+
+.blog-table-header-left-email-all {
+    margin-left: 104px;
+    margin-right: 97px;
+}
+
+.blog-table-header-left-number-phone-1 {
+    width: 168px;
+}
+
+.blog-table-header-left-title-notifi {
+    color: #044F90;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.44px;
+    margin-bottom: 31px;
+    text-align: left;
+    padding:0;
+}
+
+.product-item {
+    border: 1px solid #333!important;
+}
+
+.blog-table-header-left-notifi-info tr {
+    display: grid;
+}
+
+.blog-table-header-left-notifi {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -6px;
+    width: 913px;
+    height: 80px;
+}
+
+.blog-table-header-left-all-seach-public-cells {
+    color: #044F90;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.44px;
+    margin-bottom: 31px;
+    text-align: left;
+    padding:0;
+}
+
+.blog-table-header-left-all-seach-public {
+    margin-top: 93px;
+}
+
+.blog-table-header-left-three th {
+    text-align: unset;
+    font-size: 16px;
+    color: #333;
+    opacity: 0.5;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding:0;
+}
+
+.blog-table-header-left tr {
+    display: grid;
+    margin-left: 2px;
+}
+
+.blog-table-header-left tbody tr td {
+    border-top: 0px solid;
+    text-align: unset;
+    padding:0;
+}
+
+.blog-table-header-left-three tbody {
+    display: flex;
+}
+
+.blog-table-header-left-all-seach-public-cells-viv {
+    margin-bottom: 239px;
+}
+
+.catalog-section.bx-blue {
+    display: flex;
+    overflow: scroll;
+}
+
+.catalog-section.bx-blue .row.product-item-list-col-2:nth-child(2n) {
+    margin-left: 37px;
+}
+
+.blog-table-header-left-all-seach-public tr {
+    display: grid;
+}
+
+.page-left-top h1 {
+    width: 1030px;
+}
+
+.blog-table-header-class-new-right-table-logo-1 a {
+    font-size: 19px;
+    font-weight: 400;
+    height: 300px;
+    display: table-cell;
+    vertical-align: middle;
+    color: #333;
+    position: relative;
+    left: 49%;
+    color: #333;
+}
+
+.catalog-section.bx-blue {
+    max-width: 1334px;
+}
+
+.blog-table-header-left-all-seach-public-cells-viv {
+    margin-bottom: 239px;
+    overflow: hidden;
+}
+
+.blog-table-header-left-all-seach-public-cells-viv:hover {
+    overflow: auto;
+}
+
+.catalog-section.bx-blue .row.product-item-list-col-2:nth-child(2n) {
+    margin-left: 81px;
+}
+
+.blog-table-header-left-three tr {display: grid;}

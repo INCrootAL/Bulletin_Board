@@ -1,0 +1,68 @@
+a.search-page-params {
+	border-bottom: 1px dashed blue;
+	text-decoration: none;
+}
+div.search-page-params {
+	margin-top: 6px;
+}
+.search-item-rate {font-size: 11px;}
+
+.apply_job_seach .search-page {
+    margin-top: 52px;
+}
+
+.body-main-top .apply_job .search-page .search-suggest:focus {
+    outline: none;
+    border: 1px solid #035AA6!important;
+    input: focus,;
+}
+
+.body-main-top .apply_job .search-page .search-suggest::placeholder {
+    left: -39px;
+    position: relative;
+   
+    padding-left:39px;
+    color: rgba(51, 51, 51, 0.50);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.body-main-top .apply_job .search-page .search-suggest {
+    padding:2px 0 0 63px!important;
+    z-index:2;
+    min-width: 81.7%;
+    border: 1px solid #FFF!important;
+    border-radius: 14px!important;
+    height: 47px!important;;
+    background: url(/bitrix/templates/maritime_service/images/svg/magnifier.svg) 1.9% 50% no-repeat #fff;
+    cursor:pointer;
+}
+
+.apply_job_seach input[type="submit"]:hover {
+    background: #044F90;
+}
+
+.apply_job_seach input[type="submit"] {
+    cursor:pointer;
+    left: -21px;
+    position: relative;
+    min-width: 195px;
+    border-radius: 14px;
+    background: #035AA6;
+    border-width: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.apply_job_seach form {
+    display: flex;
+}

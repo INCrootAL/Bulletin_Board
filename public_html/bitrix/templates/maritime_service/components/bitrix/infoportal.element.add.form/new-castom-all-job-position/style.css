@@ -1,0 +1,853 @@
+
+#salary_ot::placeholder {
+    line-height: 47px;
+}
+
+#salary_do::placeholder {
+    line-height: 47px;
+}
+
+table.data-table {
+    box-sizing: content-box;
+    display: contents;
+}
+
+.data-table-title-position-name {
+    margin-top: 51px;
+    color: #333;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.64px;
+}
+
+tbody {
+    width: 100%;
+    height: 100%;
+}
+
+table.data-table td {
+    display: block;
+    margin-top: 15px;
+    padding-right: 0px!important;
+    color: #333;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+tr {
+    margin-top: 13px;
+}
+
+td.data-table-name2 {
+    display:none!important;
+}
+
+select {
+    width: 99.8%;
+    display: flex;
+    height: 55px;;
+    padding: 0px 0px 0px 22px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    cursor: pointer;
+    background: url(/bitrix/templates/maritime_service/images/svg/arrow.svg) 93% 50% no-repeat;
+    -webkit-appearance: none;
+}
+
+select[name="PROPERTY[15]"] {
+    margin-top: -3px;
+    overflow: hidden;
+    position: relative;
+    padding-right: 82px;
+    background: url(/bitrix/templates/maritime_service/images/svg/arrow.svg) 96.7% 50% no-repeat;
+}
+
+select[name="PROPERTY[15]"]:hover {
+    border: 1px solid #044F90;
+}
+
+select[name="PROPERTY[15]"]:focus {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #044F90;
+    input: focus,;
+}
+
+option {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    padding-left: 23px;
+}
+
+textarea[name="PROPERTY[16][0]"]:hover{
+    border: 1px solid #044F90;
+}
+
+textarea[name="PROPERTY[16][0]"]:focus{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #044F90;
+    input: focus,;
+}
+
+textarea[name="PROPERTY[16][1]"]:hover{
+    border: 1px solid #044F90;
+}
+    
+textarea[name="PROPERTY[16][1]"]:focus{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #044F90;
+    input: focus,;
+}
+
+textarea[name="PROPERTY[16][0]"]{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    line-height: 50px;
+}
+
+textarea[name="PROPERTY[16][1]"]{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -6px;
+    line-height: 50px;
+}
+
+textarea[name="PROPERTY[21][0]"] {
+    min-width: 573px;
+    min-height:120px;
+}
+
+textarea[name="PROPERTY[21][0]"]:focus {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #044F90;
+    input: focus,;
+}
+
+textarea[name="PROPERTY[21][0]"]:hover {
+    border: 1px solid #044F90;
+}
+
+textarea#input_value_optional_overview {
+    padding: 0px 0px 0px 22px;
+    border-radius: 10px;
+    line-height: 27px;
+}
+
+input[name="PROPERTY[55][0]"]{
+    margin-bottom: -10px;
+    border-radius: 10px;
+    min-width: 96%;
+    text-align: left;
+    justify-content: left;
+    align-items: center;
+    line-height: 50px;
+}
+
+select:hover{
+    border: 1px solid #044F90;
+}
+
+select:focus{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #044F90;
+    input: focus,; 
+}
+
+input[name="PROPERTY[55][0]"]:hover{
+    border: 1px solid #044F90;
+}
+
+input[name="PROPERTY[55][0]"]:focus{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #044F90;
+    input: focus,;
+}
+
+select[name="PROPERTY[51]"]{
+    width: 124px;
+    height: 55px;
+    position: absolute;
+    margin-top: -76px;
+    margin-left: 475px;
+    background: url(/bitrix/templates/maritime_service/images/svg/arrow.svg) 77% 50% no-repeat;
+    -webkit-appearance: none;
+}
+
+select[name="PROPERTY[51]"]:hover{
+   border: 1px solid #044F90;
+}
+
+select[name="PROPERTY[51]"]:focus{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #044F90;
+    input: focus,;
+}
+
+select[name="PROPERTY[18]"]{
+    width: 290px;
+    height: 55px;
+}
+
+tr.info_15 {
+    position: absolute;
+    margin-top: -108px;
+    margin-left: 307px;
+    width: 293px;
+    height: 53px;
+    flex-shrink: 0;
+}
+
+textarea {
+    overflow: hidden;
+    width: 205.5px;
+    height: 49px;
+    resize:none;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    padding: 2px 2px 2px 22px;
+}
+
+input[type="text"] {
+    border: 1px solid;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    width: 267px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    padding: 0px 0px 0px 22px;
+    word-break: break-word;
+}
+
+#input_value_optional_overview::placeholder {
+    margin-bottom: 55px;
+    line-height: 25px;
+}
+
+input[type="text"]:hover {
+    border: 1px solid #044F90;
+}
+
+input[type="text"]:focus {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #044F90;
+    input: focus,;
+}
+
+tr.info_11 {
+    position: absolute;
+    margin-top: -108px;
+    margin-left: 308px;
+}
+
+tr.info_23 {
+    position: absolute;
+    margin-top: -127px;
+    margin-left: 308px;
+}
+
+tr.info_27 {
+    position: absolute;
+    margin-top: -127px;
+    margin-left: 308px;
+}
+
+img.calendar-icon {
+    margin-top: 16px;
+    margin-left: -33px;
+}
+
+td.property_8 {
+    display: none!important;
+}
+
+font.notetext {
+    position: absolute;
+}
+
+#title-cont-name {
+    margin-top: 41px;
+    margin-bottom: 19px;
+    color: #333;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.44px;
+    
+}
+
+#button {
+    display: inline-flex;
+    padding: 18px 27px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    border-radius: 10px;
+    background: #035AA6;
+    cursor: pointer;
+    border-width: 0px;
+    margin-top: 47px;
+}
+
+#button:hover {
+    background: #044F90;
+}
+
+.submit-title-name {
+    color: rgba(51, 51, 51, 0.50);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.28px;
+    margin-left: 21px;
+}
+
+#popup_job_position input[type="checkbox"] {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    margin: 0px 5px 0 0;
+    appearance: none;
+    background-color: initial;
+    border: 1px solid #333;
+    border: 1px solid #D9D9D9;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
+
+#popup_job_position .main-user-consent-request-announce a {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    top: -4px;
+    position: relative;
+}
+
+#popup_job_position input[type="checkbox"].active {
+    background: #035AA6;
+    background-image: url(/bitrix/templates/maritime_service/images/svg/checkbox.svg), url(/bitrix/templates/maritime_service/images/svg/tick.svg);
+    background-position: top right 15px, bottom 4px left 3px, top left 10px;
+    background-repeat: no-repeat;
+}
+
+.position-politics {
+    margin-top: -15px;
+}
+
+.popup-window {
+    /* width: 28.124px; */
+    width: 289px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F8F6F6;
+}
+
+.bx-calendar {
+    width: 100%;
+}
+
+.bx-calendar-name-day-wrap {
+    background-color: #F8F6F6;
+    height: 100%;
+    line-height: 12px;
+    padding: 1px 0px 0 0px;
+    position: relative;
+    margin: 0 -5px 3px 8px;
+    z-index: 5;
+}
+
+.bx-calendar-name-day {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    margin: 0 7.76px;
+    padding-top: 0;
+    width: 8%;
+}
+
+.bx-calendar-cell {
+    color: #999;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    width: 28.124px;
+    height: 26px;
+    flex-shrink: 0;
+    margin-right: 6px;
+}
+
+.bx-calendar-range {
+    border-bottom: 1px solid #f3f2ed;
+    margin: 0px 0px 0 1px;
+    padding: 1px 7px 1px 8px;
+    position: relative;
+    z-index: 5;
+}
+
+.bx-calendar-cell-block {
+    margin-top: 14px;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+a.bx-calendar-cell:first-child {
+    /* margin-left: -3px; */
+    left: -2px;
+    position: relative;
+}
+
+.bx-calendar-active:hover {
+    background-color: none;
+    color: #035AA6!important;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.bx-calendar-cell:hover {
+    background-color: #eee;
+    color: #035AA6!important;
+    text-decoration: none;
+     font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+a.bx-calendar-cell.bx-calendar-active.bx-calendar-weekend{
+    color: #999;
+}
+
+a.bx-calendar-cell.bx-calendar-weekend {
+    color: #999;
+}
+
+a.bx-calendar-cell {
+     color: #999!important;
+}
+
+a.bx-calendar-cell.bx-calendar-active {
+    color: #035AA6!important;
+    background-color: #F8F6F6;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+a.bx-calendar-top-year {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+a.bx-calendar-top-month {
+    background:#F8F6F6;
+}
+
+a.bx-calendar-top-year {
+    background:#F8F6F6;
+}
+
+.bx-calendar-header-content {
+    display: inline-block;
+    text-align: center;
+    width: 234px;
+}
+
+img.calendar-icon-hover {
+    border: 1px solid #fff;    
+    border-radius: 4px;
+}
+
+.selectBox {
+    border: 1px solid;
+    width: 267px;
+    height: 53px;
+    border-radius: 10px;
+    padding: 0px 0px 0px 22px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    cursor: pointer;
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    align-items: center;
+    background: url(/bitrix/templates/maritime_service/images/svg/arrow.svg) 93% 50% no-repeat;
+}
+
+.selectBox:hover {
+    border: 1px solid #044F90;
+}
+
+.selectBox:focus {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #044F90;
+    input: focus,;
+}
+
+ul.dropDown {
+    position: absolute;
+    z-index: 10;
+    list-style-type: none;
+    width: 262px;
+    height: 269px;
+    border-spacing: 0px;
+    padding: 0;
+    padding-left: 20px;
+    border-radius: 10px;
+    background: #F8F6F6;
+    box-shadow: 2px 5px 7px 0px rgba(0, 0, 0, 0.11);
+    overflow: scroll;
+}
+
+.dropDown li {
+    margin-top: 15px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    padding-right: 49px;
+    word-wrap: break-word;
+}
+
+.dropDown li.active {
+    color: #035AA6;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.dropDown span:hover {
+    color: #035AA6;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.selectBox_basic:hover {
+    border: 1px solid #044F90;
+}
+
+.selectBox_basic:focus {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #044F90;
+    input: focus,;
+}
+
+.selectBox_basic {
+    text-overflow: ellipsis;
+    line-height: 53px;
+    display: block;
+    -webkit-box-orient: horizontal;
+    padding: 0 55px 0 22px;
+    border: 1px solid;
+    white-space: nowrap;
+    height: 53px;
+    border-radius: 10px;
+    width: 493px;
+    margin-top: -3px;
+    overflow: hidden;
+    position: relative;
+    padding-right: 82px;
+    background: url(/bitrix/templates/maritime_service/images/svg/arrow.svg) 96.7% 50% no-repeat;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    cursor: pointer;
+    text-align: left;
+    justify-content: left;
+    align-items: center;
+}
+
+.dropDown_basic {
+    position: absolute;
+    z-index: 11;
+    list-style-type: none;
+    width: 578px;
+    height: 425px;
+    border-spacing: 0px;
+    padding: 0;
+    padding-left: 20px;
+    border-radius: 10px;
+    background: #F8F6F6;
+    box-shadow: 2px 5px 7px 0px rgba(0, 0, 0, 0.11);
+    overflow: scroll;
+}
+
+.dropDown_basic li {
+    margin-top: 15px;
+    cursor: pointer;
+    padding-right: 49px;
+    word-wrap: break-word;
+    margin-bottom: 15px;
+    
+}
+
+.dropDown_basic li:hover {
+    color: #035AA6;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.dropDown_basic li.active {
+    color: #035AA6;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.selectBox_val_old:hover {
+    border: 1px solid #044F90;
+}
+
+.selectBox_val_old:focus {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #044F90;
+    input: focus,;
+}
+
+.selectBox_val_old {
+    width: 100px;
+    height: 55px;
+    position: absolute;
+    margin-top: -76px;
+    margin-left: 475px;
+    background: url(/bitrix/templates/maritime_service/images/svg/arrow.svg) 82% 50% no-repeat;
+    -webkit-appearance: none;
+    border: 1px solid;
+    border-radius: 10px;
+        display: flex;
+    text-align: left;
+    justify-content: left;
+    align-items: center;
+    padding: 0px 0px 0px 22px;
+    cursor:pointer;
+}
+
+.dropDown_val_old {
+    position: absolute;
+    z-index: 10;
+    list-style-type: none;
+    width: 102px;
+    height: 136px;
+    border-spacing: 0px;
+    padding: 0;
+    padding-left: 20px;
+    border-radius: 10px;
+    background: #F8F6F6;
+    box-shadow: 2px 5px 7px 0px rgba(0, 0, 0, 0.11);
+    overflow: scroll;
+    margin-top: -13px;
+    margin-left: 475px;
+}
+
+.dropDown_val_old li {
+    margin-top: 15px;
+    cursor: pointer;
+    padding-right: 49px;
+    word-wrap: break-word;
+}
+
+.dropDown_val_old li:hover {
+    color: #035AA6;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.dropDown_val_old li.active {
+    color: #035AA6;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.mli-search-results {
+    background-color: #F8F6F6!important;
+    border-radius: 10px;
+    background: #F8F6F6;
+    width: 284px!important;
+    border: solid 0px !important;
+    height: 307px;
+    color: #333;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    overflow: scroll;
+    box-shadow: 2px 5px 7px 0px rgba(0, 0, 0, 0.11);
+}
+
+.mli-search-result {
+    margin-top: 10px!important;
+    padding-left: 29px!important;
+    padding-right: 37px!important;
+    color: #333;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}
+
+.mli-search-result.mli-search-current {
+    color: #035AA6;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.32px; 
+}
+
+.mli-search-result:hover{
+    color: #035AA6;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.32px;   
+}
+
+.mli-field{
+    background: url(/bitrix/templates/maritime_service/images/svg/arrow.svg) 93% 50% no-repeat;
+}
+
+#popup_job_position .mli-layout {
+    width: 281px;
+}
+
+table.data-table .property_6 {
+    margin-top: 24px;
+    margin-bottom: -3px;
+}
+
+table.data-table .property_10 {
+    margin-top: 3px;
+    margin-bottom: -3px;
+}
+
+table.data-table .property_18 {
+    margin-top: 24px;
+    margin-bottom: -3px;
+}
+
+table.data-table .property_20 {
+    margin-bottom: -3px;
+}
+
+table.data-table .property_22 {
+    margin-bottom: -3px;
+}
+
+table.data-table .property_26 {
+    margin-bottom: -3px;
+    margin-top: 5px;
+}
+
+table.data-table .property_14 {
+    margin-top: 24px;
+    margin-bottom: -3px;
+}
